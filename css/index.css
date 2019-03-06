@@ -1,8 +1,16 @@
-.container {
-    margin: 25px;
-    padding: 25px;
-    border-style: solid;
-    border-color: red;
+
+nav {
+    color: silver;
+}
+
+
+aside {
+    margin-bottom: 3%;
+}
+
+
+.container .media-body{
+    margin: 2% 2% 2% 0%;
 }
 
 .card {
@@ -10,9 +18,44 @@
     margin: 10px;
     padding: 15px;
     color:aquamarine;
-<<<<<<< HEAD
-    
 }
-=======
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin: 5%;
+    border: 2px solid blue;
+    border-radius: 5px;
 }
->>>>>>> ca601d1a8b1bffa9ea6c9e1812cc9bf82354d6ac
+
+.media {
+    width: 60%;
+    margin-top: 3%;
+}
+
+.media-depl {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    display: flex;
+    align-self: flex-end;
+}
+
+section {
+    text-align: justify;
+}
+
+footer h4 {
+    text-align: left;
+}
+
+footer h5 {
+    text-decoration: underline;
+}
+
+footer li {
+    list-style-type: none;
+}
