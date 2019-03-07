@@ -1,61 +1,84 @@
+body {
+    background-color: mintcream;
+    font-family: "Courier New", Courier, monospace, sans-serif;
+}
+
+.container {
+    background-color: mintcream;
+}
 
 nav {
+    font-style: normal;
     color: silver;
+    font-size: 1.5em;
 }
 
-
-aside {
-    margin-bottom: 3%;
-}
-
-
-.container .media-body{
-    margin: 2% 2% 2% 0%;
-}
-
-.card {
-    text-align: center;
-    margin: 10px;
-    padding: 15px;
-    color:aquamarine;
+nav ul {
+    margin-left: 30%;
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
     margin: 5%;
-    border: 2px solid blue;
-    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: DarkSlateGray;
 }
 
-.media {
-    width: 60%;
+h3 {
+    font-size: 1.4em;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    font-size: 0.8em;
     margin-top: 3%;
 }
 
-.media-depl {
+strong {
+    font-style: italic;
+    color: silver;
+    font-size: 1em;
     display: flex;
     justify-content: flex-end;
 }
 
-button {
+article {
+    background-color: Lavender;
+    box-shadow: 3px 3px 8px;
+    border-radius: 4px;
+    margin-top: 13%;
+    padding-bottom: 3%;
+}
+
+section img {
+    height: 175px;
+    width: 275px;
+}
+
+section button {
     display: flex;
     align-self: flex-end;
+    margin-left: 4%;
+    margin-bottom: 2%;
 }
 
-section {
-    text-align: justify;
-}
-
-footer h4 {
-    text-align: left;
-}
-
-footer h5 {
-    text-decoration: underline;
+footer {
+    margin: 5%;
+    padding: 3%;
+    background-color: Lavender;
+    box-shadow: 3px 3px 8px;
+    border-radius: 4px;
+    color: silver;
 }
 
 footer li {
-    list-style-type: none;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: silver;
 }
